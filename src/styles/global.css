@@ -39,7 +39,7 @@ body {
 	word-wrap: break-word;
 	overflow-wrap: break-word;
 	color: rgb(var(--gray-dark));
-	font-size: 20px;
+	font-size: 18px;
 	line-height: 1.7;
 }
 main {
@@ -54,24 +54,24 @@ h3,
 h4,
 h5,
 h6 {
-	margin: 0 0 0.5rem 0;
+	margin: 2rem 0 1rem 0;
 	color: rgb(var(--black));
 	line-height: 1.2;
 }
 h1 {
-	font-size: 3.052em;
-}
-h2 {
 	font-size: 2.441em;
 }
-h3 {
+h2 {
 	font-size: 1.953em;
 }
-h4 {
+h3 {
 	font-size: 1.563em;
 }
-h5 {
+h4 {
 	font-size: 1.25em;
+}
+h5 {
+	font-size: 1em;
 }
 strong,
 b {
@@ -103,6 +103,8 @@ img {
 	max-width: 100%;
 	height: auto;
 	border-radius: 8px;
+	max-height: 600px;
+	object-fit: cover;
 }
 code {
 	padding: 2px 5px;
@@ -128,7 +130,7 @@ hr {
 }
 @media (max-width: 720px) {
 	body {
-		font-size: 18px;
+		font-size: 16px;
 	}
 	main {
 		padding: 1em;
@@ -151,4 +153,43 @@ hr {
 	clip-path: inset(50%);
 	/* added line to stop words getting smushed together (as they go onto separate lines and some screen readers do not understand line feeds as a space */
 	white-space: nowrap;
+}
+
+h1,
+h2 {
+	margin: 2rem 0 1rem 0;
+}
+
+h3,
+h4,
+h5,
+h6 {
+	margin: 1.5rem 0 0.5rem 0;
+}
+
+ul {
+	margin-top: 0.5rem;
+	margin-bottom: 1.5rem;
+	padding-left: 1.5rem;
+}
+
+ul:last-child {
+	margin-bottom: 2rem;
+}
+
+li {
+	margin-bottom: 0.25rem;
+}
+
+p + ul {
+	margin-top: -0.5rem;
+}
+
+h1 + ul,
+h2 + ul,
+h3 + ul,
+h4 + ul,
+h5 + ul,
+h6 + ul {
+	margin-top: 0.75rem;
 }

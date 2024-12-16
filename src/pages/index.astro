@@ -1,8 +1,8 @@
 ---
-import BaseHead from '../components/BaseHead.astro';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
-import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 ---
 
 <!doctype html>
@@ -12,38 +12,155 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 	</head>
 	<body>
 		<Header />
-		<main>
-			<h1>🧑‍🚀 Hello, Astronaut!</h1>
-			<p>
-				Welcome to the official <a href="https://astro.build/">Astro</a> blog starter template. This
-				template serves as a lightweight, minimally-styled starting point for anyone looking to build
-				a personal website, blog, or portfolio with Astro.
+		<main class="container mx-auto px-4">
+			<h1 class="text-3xl font-bold mb-6">
+				Enabling Safe AI Development Through Extended Hardware Security
+			</h1>
+
+			<p class="mb-8">
+				Modern AI development demands new approaches to security and
+				verification. We're extending existing hardware security
+				infrastructure to enable automated, privacy-preserving
+				verification of compute workloads - creating immediate benefits
+				for cloud providers while building toward safer AI development.
 			</p>
-			<p>
-				This template comes with a few integrations already configured in your
-				<code>astro.config.mjs</code> file. You can customize your setup with
-				<a href="https://astro.build/integrations">Astro Integrations</a> to add tools like Tailwind,
-				React, or Vue to your project.
-			</p>
-			<p>Here are a few ideas on how to get started with the template:</p>
-			<ul>
-				<li>Edit this page in <code>src/pages/index.astro</code></li>
-				<li>Edit the site header items in <code>src/components/Header.astro</code></li>
-				<li>Add your name to the footer in <code>src/components/Footer.astro</code></li>
-				<li>Check out the included blog posts in <code>src/content/blog/</code></li>
-				<li>Customize the blog post page layout in <code>src/layouts/BlogPost.astro</code></li>
-			</ul>
-			<p>
-				Have fun! If you get stuck, remember to <a href="https://docs.astro.build/"
-					>read the docs
-				</a> or <a href="https://astro.build/chat">join us on Discord</a> to ask questions.
-			</p>
-			<p>
-				Looking for a blog template with a bit more personality? Check out <a
-					href="https://github.com/Charca/astro-blog-template"
-					>astro-blog-template
-				</a> by <a href="https://twitter.com/Charca">Maxi Ferreira</a>.
-			</p>
+
+			<section class="mb-12">
+				<h2 class="text-2xl font-bold mb-4">Immediate Impact</h2>
+				<p>
+					Cloud service providers face growing challenges in verifying
+					AI workloads while protecting customer privacy. Our approach
+					enables:
+				</p>
+				<ul class="list-disc ml-6 mt-2">
+					<li>Automated pre-compute verification</li>
+					<li>Privacy-preserving auditing</li>
+					<li>Scalable trust mechanisms</li>
+					<li>Integration with existing infrastructure</li>
+				</ul>
+			</section>
+
+			<section class="mb-12">
+				<h2 class="text-2xl font-bold mb-4">
+					Building on Proven Foundations
+				</h2>
+				<p>
+					Rather than creating entirely new systems, we're extending
+					battle-tested hardware security infrastructure:
+				</p>
+				<ul class="list-disc ml-6 mt-2">
+					<li>Industry standard secure enclaves</li>
+					<li>Established attestation protocols</li>
+					<li>Existing confidential computing frameworks</li>
+					<li>Proven supply chain security measures</li>
+				</ul>
+			</section>
+
+			<section class="mb-12">
+				<h2 class="text-2xl font-bold mb-4">Join Our Effort</h2>
+				<p>
+					We're looking for partners and team members across multiple
+					domains:
+				</p>
+
+				<h3 class="text-xl font-bold mt-6 mb-3">Team Roles</h3>
+				<ul class="list-disc ml-6">
+					<li>
+						Standards Development Lead: Drive engagement with
+						hardware security standards bodies and industry working
+						groups
+					</li>
+					<li>
+						Security Architecture Engineer: Design
+						privacy-preserving verification protocols
+					</li>
+					<li>
+						ML Verification Researcher: Develop pre-compute
+						verification methods
+					</li>
+					<li>
+						Hardware Security Expert: Integrate with existing
+						security infrastructure
+					</li>
+					<li>
+						Policy & Standards Specialist: Guide standards evolution
+						and industry adoption
+					</li>
+				</ul>
+
+				<h3 class="text-xl font-bold mt-6 mb-3">
+					Partnership Opportunities
+				</h3>
+				<ul class="list-disc ml-6">
+					<li>
+						Security IP Vendors: Integrate verification capabilities
+					</li>
+					<li>
+						Verification Services: Develop white-box security
+						auditing
+					</li>
+					<li>
+						ML Research Groups: Advance pre-training verification
+						methods
+					</li>
+					<li>
+						Manufacturing Partners: Explore advanced security
+						implementations
+					</li>
+				</ul>
+			</section>
+
+			<section class="mb-12">
+				<h2 class="text-2xl font-bold mb-4">Funding & Support</h2>
+				<p>We're seeking support to accelerate:</p>
+				<ul class="list-disc ml-6 mt-2">
+					<li>Standards development and adoption</li>
+					<li>Reference implementations</li>
+					<li>Industry integration programs</li>
+					<li>Research into advanced verification methods</li>
+				</ul>
+			</section>
+
+			<section class="mb-12">
+				<h2 class="text-2xl font-bold mb-4">Learn More</h2>
+				<p>Explore our detailed blog series:</p>
+				<ul class="list-disc ml-6 mt-2">
+					<li>
+						<a href="/blog/1-hardware-security-standards" class="text-blue-600 hover:underline">
+							Extending Hardware Security Standards for Safe AI Development
+						</a>
+					</li>
+					<li>
+						<a href="/blog/2-privacy-preserving" class="text-blue-600 hover:underline">
+							Privacy-Preserving Compute Auditing for Cloud Providers
+						</a>
+					</li>
+					<li>
+						<a href="/blog/3-hardware-implementation" class="text-blue-600 hover:underline">
+							Evolving Hardware Security: From Standards to Implementation
+						</a>
+					</li>
+					<li>
+						<a href="/blog/4-technical-impl-paths" class="text-blue-600 hover:underline">
+							Technical Implementation Paths for Safe AI Hardware
+						</a>
+					</li>
+				</ul>
+			</section>
+
+			<section class="mb-12">
+				<h2 class="text-2xl font-bold mb-4">Contact Us</h2>
+				<p class="mb-4">
+					We're excited to collaborate with partners and welcome inquiries from potential team members. Reach out to discuss:
+					<a
+						href="mailto:team@earendil.ai"
+						class="inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors"
+					>
+							team@earendil.ai
+				</a>
+				</p>
+
+			</section>
 		</main>
 		<Footer />
 	</body>
